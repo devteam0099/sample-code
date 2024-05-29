@@ -1,0 +1,46 @@
+.min-div{
+   display: flex;
+   flex-direction: row;
+   height: 70vh;
+   width: 100vw;
+   justify-content: center;
+   align-items: center;
+   align-content: space-around;
+   background-color: blue;
+}
+.sub-div{
+    height: 200px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    align-content: space-between;
+    box-sizing: border-box;
+
+
+}
+.inp-div{
+ height: 40px;
+ width: 300px;
+ align-self: center;
+ border: 3px solid black;
+ border-radius: 5px;
+ margin-bottom: 30px;
+}
+.text-div{
+    font-weight: 800;
+    font-size: larger;
+    color: white;
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 0px;
+}

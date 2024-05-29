@@ -1,0 +1,42 @@
+.out-containor{
+    width: 500px;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 70px;
+    margin-left: 350px;
+    margin-top: 250px;
+}
+.time-containor{
+    width: 500px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    color: white;
+}
+.stopwatch{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgb(134, 134, 202);
+    
+}
+button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    border-radius:  5px;
+    float: right;
+    height: 60px;
+    margin-top: -60px;
+
+}
